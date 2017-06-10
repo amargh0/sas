@@ -79,6 +79,4 @@
 
 </div>
 
-
-</body>
-</html>
+@include("incloud.footer");

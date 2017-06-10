@@ -17,7 +17,8 @@ class UserController extends Controller
     {
         $users = User::all();
         //dd($users);
-        return view('list')->with('users',$users);
+      //  return view('user-list')->with('users',$users);
+        return view('user-create');
       //  return $users->toJson();
     }
 
@@ -28,7 +29,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        return view('user.create');
     }
 
     /**
